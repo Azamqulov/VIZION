@@ -1562,6 +1562,7 @@
         
         .testimonial-container {
         max-width: 1000px;
+        overflow: hidden;
         margin: 0 auto;
         padding: 0 30px;
         }
@@ -2204,10 +2205,6 @@
         }
         
         @media (max-width: 576px) {
-            .hero{
-                width:320px ;
-                margin: 0 auto;
-            }
         .hero-text h1 {
             font-size: 2.2rem;
         }
@@ -2227,7 +2224,6 @@
         }
         
         .cookie-consent {
-            width: 320px;
             left: 20px;
             right: 20px;
             bottom: 20px;
