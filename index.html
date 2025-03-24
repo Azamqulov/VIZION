@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profesyonel video düzenleme, animasyon ve sosyal medya içerik üretimi hizmetleri. 2D ve 3D animasyon, YouTube ve dijital platformlar için video içerik üretimi.">
+    <meta name="keywords" content="Video streaming, Animation video streaming, Video editing, Social media video streaming, Video production industry, 2D and 3D animation streaming, YouTube and digital platforms for video streaming">
+    <title>VIZION | Creative Video & Animation Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-text">
+                <span>V</span>
+                <span>I</span>
+                <span>Z</span>
+                <span>I</span>
+                <span>O</span>
+                <span>N</span>
+            </div>
+            <div class="loader-progress">
+                <div class="loader-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookie Consent -->
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="cookie-content">
+            <div class="cookie-icon">
+                <i class="fas fa-cookie-bite"></i>
+            </div>
+            <p>Bu web sitesi, size en iyi deneyimi sunmak için çerezleri kullanmaktadır.</p>
+            <div class="cookie-buttons">
+                <button id="acceptCookies">Kabul Et</button>
+                <button id="cookieInfo">Daha Fazla</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav-toggle">
+        <div class="nav-toggle-icon">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <nav class="main-nav">
+        <div class="nav-background"></div>
+        <div class="nav-content">
+            <div class="nav-header">
+                <div class="logo">VIZION</div>
+                <div class="nav-close">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" data-text="Ana Sayfa">Ana Sayfa</a></li>
+                <li><a href="#about" data-text="Hakkımızda">Hakkımızda</a></li>
+                <li><a href="#services" data-text="Hizmetler">Hizmetler</a></li>
+                <li><a href="#process" data-text="Süreç">Süreç</a></li>
+                <li><a href="#portfolio" data-text="Portfolyo">Portfolyo</a></li>
+                <li><a href="#clients" data-text="Müşteriler">Müşteriler</a></li>
+                <li><a href="#testimonials" data-text="Yorumlar">Yorumlar</a></li>
+                <li><a href="#faq" data-text="SSS">SSS</a></li>
+                <li><a href="#contact" data-text="İletişim">İletişim</a></li>
+            </ul>
+            <div class="nav-footer">
+                <div class="nav-social">
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-vimeo-v"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-behance"></i></a>
+                </div>
+                <div class="nav-contact">
+                    <p>info@vizionstudio.com</p>
+                    <p>+90 212 345 6789</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-background">
+                <video autoplay muted loop id="hero-video">
+                    <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-technology-with-lines-and-particles-4839-large.mp4" type="video/mp4">
+                </video>
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="glitch" data-text="YARATICI VİZYON">YARATICI VİZYON</h1>
+                    <p class="hero-subtitle">Video Düzenleme & Animasyon Stüdyosu</p>
+                    <div class="hero-description">
+                        <p>Hikayenizi görselleştiriyoruz. Profesyonel video düzenleme ve animasyon hizmetleriyle markanızı bir sonraki seviyeye taşıyın.</p>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn-primary">
+                        <span class="btn-text">Projeye Başla</span>
+                        <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+                    <a href="#showreel" class="btn-showreel">
+                        <span class="showreel-icon">
+                            <i class="fas fa-play"></i>
+                        </span>
+                        <span class="showreel-text">Showreel İzle</span>
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-text">AŞAĞI KAYDIRIN</div>
+                <div class="scroll-line"></div>
+            </div>
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-header">
+                <div class="section-tag">HAKKIMIZDA</div>
+                <h2 class="section-title">Biz <span class="highlight">Kimiz</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Hikayemiz</h3>
+                        <p>VIZION, 2015 yılında İstanbul'da kurulmuş yaratıcı bir video prodüksiyon ve animasyon stüdyosudur. Tutkulu bir ekip olarak, markaların hikayelerini görsel anlatımla buluşturarak etkileyici içerikler üretiyoruz.</p>
+                        <p>Başlangıçta küçük bir ekip olarak yola çıktık, ancak yıllar içinde büyüyerek Türkiye'nin önde gelen yaratıcı stüdyolarından biri haline geldik. Bugün, ulusal ve uluslararası markalarla çalışarak, her projeye özgün bir yaklaşım getiriyoruz.</p>
+                        
+                        <h3>Misyonumuz</h3>
+                        <p>Görsel hikaye anlatımının gücünü kullanarak markaların mesajlarını hedef kitlelerine en etkileyici şekilde iletmelerine yardımcı olmak. Her projede yaratıcılık, kalite ve yenilikçilik standartlarını en üst seviyede tutarak müşterilerimizin beklentilerini aşmak.</p>
+                        
+                        <h3>Vizyonumuz</h3>
+                        <p>Türkiye'de ve dünyada yaratıcı video prodüksiyonu ve animasyon alanında öncü bir stüdyo olmak. Sürekli gelişen teknoloji ve trendleri takip ederek, sektörde yenilikçi yaklaşımlarla fark yaratmak.</p>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="8">0</div>
+                            <div class="stat-label">Yıllık Deneyim</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="250">0</div>
+                            <div class="stat-label">Tamamlanan Proje</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="45">0</div>
+                            <div class="stat-label">Mutlu Müşteri</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="12">0</div>
+                            <div class="stat-label">Ödül</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-team">
+                    <h3>Ekibimiz</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Ahmet Yılmaz">
+                                <div class="member-overlay">
+                                    <div class="member-social">
+                                        <a href="#" class="member-social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#" class="member-social-icon"><i class="fab fa-behance"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Ahmet Yılmaz</h4>
+                                <p>Kurucu & Kreatif Direktör</p>
+                            </div>
+                        </div>
+                        
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Zeynep Kaya">
+                                <div class="member-overlay">
+                                    <div class="member-social">
+                                        <a href="#" class="member-social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#" class="member-social-icon"><i class="fab fa-behance"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Zeynep Kaya</h4>
+                                <p>Animasyon Direktörü</p>
+                            </div>
+                        </div>
+                        
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Mehmet Demir">
+                                <div class="member-overlay">
+                                    <div class="member-social">
+                                        <a href="#" class="member-social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#" class="member-social-icon"><i class="fab fa-behance"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Mehmet Demir</h4>
+                                <p>Video Prodüksiyon Yöneticisi</p>
+                            </div>
+                        </div>
+                        
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="https://randomuser.me/api/portraits/women/67.jpg" alt="Ayşe Şahin">
+                                <div class="member-overlay">
+                                    <div class="member-social">
+                                        <a href="#" class="member-social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#" class="member-social-icon"><i class="fab fa-behance"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Ayşe Şahin</h4>
+                                <p>3D Animasyon Uzmanı</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="section-header">
+                <div class="section-tag">HİZMETLERİMİZ</div>
+                <h2 class="section-title">Yaratıcı <span class="highlight">Çözümler</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="services-container">
+                <div class="service-card" data-color="#FF3A5E">
+                    <div class="service-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Video Düzenleme</h3>
+                        <p>Ham görüntülerinizi etkileyici hikayeler haline dönüştürüyoruz. Renk düzeltme, ses iyileştirme ve özel efektlerle profesyonel sonuçlar.</p>
+                        <ul class="service-features">
+                            <li><span class="feature-icon">✓</span> Renk Düzeltme</li>
+                            <li><span class="feature-icon">✓</span> Ses İyileştirme</li>
+                            <li><span class="feature-icon">✓</span> Özel Efektler</li>
+                            <li><span class="feature-icon">✓</span> Kesim ve Montaj</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover">
+                        <div class="service-hover-content">
+                            <h3>Video Düzenleme</h3>
+                            <p>Profesyonel video düzenleme hizmetlerimizle içeriğinizi bir sonraki seviyeye taşıyın.</p>
+                            <a href="#contact" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card" data-color="#3A9EFF">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>2D ve 3D Animasyon</h3>
+                        <p>Fikirlerinizi hareketli görüntülerle canlandırıyoruz. Karakter animasyonları, motion graphics ve 3D modellemelerle mesajınızı güçlendirin.</p>
+                        <ul class="service-features">
+                            <li><span class="feature-icon">✓</span> Karakter Animasyonu</li>
+                            <li><span class="feature-icon">✓</span> Motion Graphics</li>
+                            <li><span class="feature-icon">✓</span> 3D Modelleme</li>
+                            <li><span class="feature-icon">✓</span> Açıklayıcı Videolar</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover">
+                        <div class="service-hover-content">
+                            <h3>2D ve 3D Animasyon</h3>
+                            <p>Yaratıcı animasyon çözümlerimizle markanızı canlandırın ve akılda kalıcı içerikler oluşturun.</p>
+                            <a href="#contact" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card" data-color="#7A3AFF">
+                    <div class="service-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Sosyal Medya İçerikleri</h3>
+                        <p>Dijital platformlarda öne çıkmanızı sağlayacak, dikkat çekici ve paylaşılabilir içerikler üretiyoruz. Hedef kitlenizle etkileşimi artırın.</p>
+                        <ul class="service-features">
+                            <li><span class="feature-icon">✓</span> Instagram ve TikTok</li>
+                            <li><span class="feature-icon">✓</span> YouTube İçerikleri</li>
+                            <li><span class="feature-icon">✓</span> Reklam Kampanyaları</li>
+                            <li><span class="feature-icon">✓</span> Viral İçerikler</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover">
+                        <div class="service-hover-content">
+                            <h3>Sosyal Medya İçerikleri</h3>
+                            <p>Sosyal medya platformlarında dikkat çeken ve etkileşim yaratan içeriklerle markanızı öne çıkarın.</p>
+                            <a href="#contact" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-color="#FF8A3A">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Reklam Filmleri</h3>
+                        <p>Markanızın mesajını etkili bir şekilde ileten, akılda kalıcı reklam filmleri üretiyoruz. TV, dijital platformlar ve sosyal medya için özel içerikler.</p>
+                        <ul class="service-features">
+                            <li><span class="feature-icon">✓</span> Marka Tanıtım Filmleri</li>
+                            <li><span class="feature-icon">✓</span> Ürün Tanıtımları</li>
+                            <li><span class="feature-icon">✓</span> Viral Reklamlar</li>
+                            <li><span class="feature-icon">✓</span> Kampanya Videoları</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover">
+                        <div class="service-hover-content">
+                            <h3>Reklam Filmleri</h3>
+                            <p>Etkileyici reklam filmleriyle markanızın mesajını hedef kitlenize ulaştırın.</p>
+                            <a href="#contact" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="process">
+            <div class="section-header">
+                <div class="section-tag">ÇALIŞMA SÜRECİMİZ</div>
+                <h2 class="section-title">Nasıl <span class="highlight">Çalışıyoruz</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="process-container">
+                <div class="process-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-number">01</div>
+                        <div class="timeline-content">
+                            <h3>Keşif & Strateji</h3>
+                            <p>Projenizi, hedeflerinizi ve hedef kitlenizi anlamak için detaylı bir keşif süreci yürütüyoruz. Markanızın mesajını en etkili şekilde iletecek stratejiler geliştiriyoruz.</p>
+                            <div class="timeline-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-number">02</div>
+                        <div class="timeline-content">
+                            <h3>Konsept & Senaryo</h3>
+                            <p>Stratejimize uygun yaratıcı konseptler ve senaryolar geliştiriyoruz. Görsel hikaye anlatımı için storyboard'lar hazırlayarak projenin görsel akışını planlıyoruz.</p>
+                            <div class="timeline-icon">
+                                <i class="fas fa-pen-fancy"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-number">03</div>
+                        <div class="timeline-content">
+                            <h3>Prodüksiyon</h3>
+                            <p>Onaylanan konsept doğrultusunda çekim, animasyon veya grafik üretim sürecini başlatıyoruz. Yüksek kalite standartlarında içerik üretimi için tüm detaylara özen gösteriyoruz.</p>
+                            <div class="timeline-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-number">04</div>
+                        <div class="timeline-content">
+                            <h3>Post-Prodüksiyon</h3>
+                            <p>Montaj, renk düzeltme, ses tasarımı ve özel efektlerle içeriğinizi mükemmelleştiriyoruz. Geri bildirimleriniz doğrultusunda gerekli revizyonları yaparak projeyi tamamlıyoruz.</p>
+                            <div class="timeline-icon">
+                                <i class="fas fa-sliders-h"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-number">05</div>
+                        <div class="timeline-content">
+                            <h3>Teslimat & Destek</h3>
+                            <p>Final içeriği farklı formatlarda teslim ediyor ve gerektiğinde yayın desteği sağlıyoruz. Projenin başarısını ölçmek için analitik raporlar sunuyoruz.</p>
+                            <div class="timeline-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <div class="section-header">
+                <div class="section-tag">PORTFOLYO</div>
+                <h2 class="section-title">Seçkin <span class="highlight">Çalışmalarımız</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="video">Video</button>
+                <button class="filter-btn" data-filter="animation">Animasyon</button>
+                <button class="filter-btn" data-filter="social">Sosyal Medya</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item video">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Video project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Marka Tanıtım Filmi</h3>
+                                <p>Video Düzenleme</p>
+                                <a href="#" class="portfolio-link">
+                                    <span class="portfolio-icon"><i class="fas fa-play"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item animation">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1551269901-5c5e14c25df7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Animation project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>3D Karakter Animasyonu</h3>
+                                <p>3D Animasyon</p>
+                                <a href="#" class="portfolio-link">
+                                    <span class="portfolio-icon"><i class="fas fa-play"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item social">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Social media project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Instagram Kampanyası</h3>
+                                <p>Sosyal Medya</p>
+                                <a href="#" class="portfolio-link">
+                                    <span class="portfolio-icon"><i class="fas fa-play"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item video">
+                    <div class="portfolio-image">
+                        <img src="https://plus.unsplash.com/premium_photo-1721910821652-e2c08be65879?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Commercial video">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>TV Reklamı</h3>
+                                <p>Video Düzenleme</p>
+                                <a href="#" class="portfolio-link">
+                                    <span class="portfolio-icon"><i class="fas fa-play"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item animation">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Motion graphics">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Motion Graphics</h3>
+                                <p>2D Animasyon</p>
+                                <a href="#" class="portfolio-link">
+                                    <span class="portfolio-icon"><i class="fas fa-play"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item social">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="YouTube content">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>YouTube Serisi</h3>
+                                <p>Sosyal Medya</p>
+                                <a href="#" class="portfolio-link">
+                                    <span class="portfolio-icon"><i class="fas fa-play"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section id="clients" class="clients">
+            <div class="section-header">
+                <div class="section-tag">MÜŞTERİLERİMİZ</div>
+                <h2 class="section-title">Güvendikleri <span class="highlight">Markalar</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="clients-container">
+                <div class="clients-intro">
+                    <p>Ulusal ve uluslararası birçok marka ile çalışarak, onların hikayelerini görsel anlatımla buluşturuyoruz. İşte bizimle çalışan bazı markalar:</p>
+                </div>
+                
+                <div class="clients-grid">
+                    <div class="client-item">
+                        <img src="https://images.unsplash.com/photo-1611605698323-b1e99cfd37ea?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Marka 1">
+                    </div>
+                    <div class="client-item">
+                        <img src="https://images.unsplash.com/photo-1611262588024-d12430b98920?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Marka 2">
+                    </div>
+                    <div class="client-item">
+                        <img src="https://images.unsplash.com/photo-1611605698335-8b1569810432?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Marka 3">
+                    </div>
+                    <div class="client-item">
+                        <img src="https://images.unsplash.com/photo-1614680376408-81e91ffe3db7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Marka 4">
+                    </div>
+                    <div class="client-item">
+                        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Marka 5">
+                    </div>
+                    <div class="client-item">
+                        <img src="https://images.unsplash.com/photo-1611944212129-29977ae1398c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Marka 6">
+                    </div>
+                    <div class="client-item">
+                        <img src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Marka 7">
+                    </div>
+                    <div class="client-item">
+                        <img src="https://images.unsplash.com/photo-1611339555312-e607c8352fd7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Marka 8">
+                    </div>
+                </div>
+                
+                <div class="clients-cta">
+                    <p>Siz de markanızı bir sonraki seviyeye taşımak için bizimle çalışmak ister misiniz?</p>
+                    <a href="#contact" class="btn-primary">
+                        <span class="btn-text">İletişime Geçin</span>
+                        <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Showreel Modal -->
+        <div id="showreel" class="showreel-modal">
+            <div class="showreel-content">
+                <div class="showreel-close">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="showreel-video-container">
+                    <video id="showreel-video" controls>
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-technology-with-lines-and-particles-4839-large.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="section-header">
+                <div class="section-tag">YORUMLAR</div>
+                <h2 class="section-title">Müşteri <span class="highlight">Deneyimleri</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="testimonial-container">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">"</div>
+                        <div class="testimonial-content">
+                            <p>VIZION ile çalışmak harika bir deneyimdi. Markamız için hazırladıkları tanıtım videosu beklentilerimizin ötesinde oldu. Profesyonel yaklaşımları ve yaratıcı çözümleri için teşekkür ederiz.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Ayşe Yılmaz">
+                            </div>
+                            <div class="author-info">
+                                <h4>Ayşe Yılmaz</h4>
+                                <p>Pazarlama Direktörü, TechTurk</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">"</div>
+                        <div class="testimonial-content">
+                            <p>Sosyal medya kampanyamız için hazırladıkları animasyon videoları sayesinde takipçi sayımızda %40 artış yaşadık. Ekibin yaratıcılığı ve zamanında teslim etmeleri bizi çok memnun etti.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="Mehmet Kaya">
+                            </div>
+                            <div class="author-info">
+                                <h4>Mehmet Kaya</h4>
+                                <p>Sosyal Medya Yöneticisi, FashionTR</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">"</div>
+                        <div class="testimonial-content">
+                            <p>Ürün tanıtım videomuz için VIZION'u tercih ettik ve sonuçtan çok memnun kaldık. 3D animasyonlar ürünümüzün özelliklerini mükemmel şekilde vurguladı. Kesinlikle tekrar çalışacağız.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Zeynep Demir">
+                            </div>
+                            <div class="author-info">
+                                <h4>Zeynep Demir</h4>
+                                <p>Ürün Müdürü, InnovateTR</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-controls">
+                    <button class="testimonial-prev">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <div class="testimonial-progress">
+                        <div class="progress-bar"></div>
+                    </div>
+                    <button class="testimonial-next">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq">
+            <div class="section-header">
+                <div class="section-tag">SSS</div>
+                <h2 class="section-title">Sık Sorulan <span class="highlight">Sorular</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Bir proje için ortalama üretim süresi ne kadardır?</h3>
+                            <div class="faq-icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Projenin kapsamına ve karmaşıklığına bağlı olarak değişmektedir. Basit bir video düzenleme projesi 1-2 hafta içinde tamamlanabilirken, kapsamlı bir 3D animasyon projesi 4-8 hafta sürebilir. Her proje için size özel bir zaman çizelgesi sunuyoruz.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Fiyatlandırma politikanız nasıl işliyor?</h3>
+                            <div class="faq-icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Her proje benzersiz olduğu için, fiyatlandırmamız projenin kapsamına, süresine, kullanılacak tekniklere ve dağıtım kanallarına göre değişmektedir. Size özel bir teklif sunmak için projenizin detaylarını bizimle paylaşmanızı rica ediyoruz.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Hangi dosya formatlarında teslimat yapıyorsunuz?</h3>
+                            <div class="faq-icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Projelerimizi MP4, MOV, AVI gibi standart video formatlarında teslim ediyoruz. Ayrıca, ihtiyacınıza göre farklı çözünürlüklerde (HD, Full HD, 4K) ve sosyal medya platformlarına uygun formatlarda da teslimat yapabiliyoruz.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Revizyon politikanız nedir?</h3>
+                            <div class="faq-icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Standart paketlerimizde 2-3 revizyon hakkı sunuyoruz. Ancak, müşteri memnuniyeti bizim için öncelikli olduğundan, projenin mükemmel olması için gerektiğinde ek revizyonlar da yapabiliyoruz. Revizyon detayları proje başlangıcında sözleşmede belirtilmektedir.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Telif hakları kime ait olacak?</h3>
+                            <div class="faq-icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Proje tamamlandıktan ve ödemesi yapıldıktan sonra, üretilen içeriğin kullanım hakları size ait olacaktır. Ancak, portföyümüzde referans olarak kullanma hakkını saklı tutuyoruz. Özel durumlarda farklı telif hakkı düzenlemeleri yapılabilir.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-cta">
+                    <p>Başka sorularınız mı var?</p>
+                    <a href="#contact" class="btn-primary">
+                        <span class="btn-text">Bize Sorun</span>
+                        <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="section-header">
+                        <div class="section-tag">İLETİŞİM</div>
+                        <h2 class="section-title">Bize <span class="highlight">Ulaşın</span></h2>
+                        <div class="section-line"></div>
+                    </div>
+                    <p class="contact-intro">Projenizi hayata geçirmek için hemen iletişime geçin. Size özel çözümler sunmak için buradayız.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Adres</h3>
+                                <p>Bağdat Caddesi No:142, Kadıköy</p>
+                                <p>İstanbul, Türkiye</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Telefon</h3>
+                                <p>+90 (212) 456 7890</p>
+                                <p>+90 (532) 123 4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>E-posta</h3>
+                                <p>info@vizionstudio.com</p>
+                                <p>destek@vizionstudio.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h3>Sosyal Medya</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-vimeo-v"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-header">
+                            <h3>Hızlı Başvuru Formu</h3>
+                            <p>Formu doldurun, size en kısa sürede dönüş yapalım.</p>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="form-field">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">Adınız Soyadınız</label>
+                                <span class="focus-border"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="form-field">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">E-posta Adresiniz</label>
+                                <span class="focus-border"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="form-field">
+                                <input type="tel" id="phone" name="phone">
+                                <label for="phone">Telefon Numaranız</label>
+                                <span class="focus-border"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="form-field">
+                                <select id="service" name="service" required>
+                                    <option value="" disabled selected></option>
+                                    <option value="video">Video Düzenleme</option>
+                                    <option value="animation">Animasyon</option>
+                                    <option value="social">Sosyal Medya İçerikleri</option>
+                                    <option value="other">Diğer</option>
+                                </select>
+                                <label for="service">Hizmet Türü</label>
+                                <span class="focus-border"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="form-field">
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <label for="message">Mesajınız</label>
+                                <span class="focus-border"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group form-checkbox">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy">Gizlilik Politikasını okudum ve kabul ediyorum</label>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">
+                            <span class="btn-text">Gönder</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </button>
+                    </form>
+                    
+                    <div id="formSuccess" class="form-success">
+                        <div class="success-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3>Teşekkürler!</h3>
+                        <p>Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.</p>
+                        <button id="newMessage" class="btn-primary">
+                            <span class="btn-text">Yeni Mesaj</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <h2>VIZION</h2>
+                    <p>Hikayenizi görselleştiriyoruz</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-column">
+                        <h3>Hızlı Bağlantılar</h3>
+                        <ul>
+                            <li><a href="#home">Ana Sayfa</a></li>
+                            <li><a href="#about">Hakkımızda</a></li>
+                            <li><a href="#services">Hizmetler</a></li>
+                            <li><a href="#process">Süreç</a></li>
+                            <li><a href="#portfolio">Portfolyo</a></li>
+                            <li><a href="#clients">Müşteriler</a></li>
+                            <li><a href="#contact">İletişim</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h3>Hizmetler</h3>
+                        <ul>
+                            <li><a href="#services">Video Düzenleme</a></li>
+                            <li><a href="#services">2D ve 3D Animasyon</a></li>
+                            <li><a href="#services">Sosyal Medya İçerikleri</a></li>
+                            <li><a href="#services">Reklam Filmleri</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h3>Yasal</h3>
+                        <ul>
+                            <li><a href="#" id="privacy-link">Gizlilik Politikası</a></li>
+                            <li><a href="#" id="terms-link">Kullanım Koşulları</a></li>
+                            <li><a href="#" id="cookies-link">Çerez Politikası</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VIZION Studio. Tüm hakları saklıdır.</p>
+            
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Policy Modal -->
+    <div id="privacyModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-close">
+                <span></span>
+                <span></span>
+            </div>
+            <h2>Gizlilik Politikası</h2>
+            <div class="modal-body">
+                <h3>1. Giriş</h3>
+                <p>VIZION Studio olarak, gizliliğinize saygı duyuyoruz. Bu Gizlilik Politikası, web sitemizi ziyaret ettiğinizde veya hizmetlerimizi kullandığınızda kişisel verilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu açıklamaktadır.</p>
+                
+                <h3>2. Topladığımız Bilgiler</h3>
+                <p>Sizden aşağıdaki bilgileri toplayabiliriz:</p>
+                <ul>
+                    <li>İsim, e-posta adresi, telefon numarası gibi iletişim bilgileri</li>
+                    <li>İş unvanı ve şirket bilgileri</li>
+                    <li>Web sitemizi nasıl kullandığınıza dair bilgiler</li>
+                    <li>Çerezler aracılığıyla toplanan bilgiler</li>
+                </ul>
+                
+                <h3>3. Bilgilerin Kullanımı</h3>
+                <p>Topladığımız bilgileri aşağıdaki amaçlarla kullanabiliriz:</p>
+                <ul>
+                    <li>Hizmetlerimizi sağlamak ve geliştirmek</li>
+                    <li>Sorularınıza ve taleplerinize yanıt vermek</li>
+                    <li>Size özel teklifler ve güncellemeler göndermek</li>
+                    <li>Web sitemizin kullanımını analiz etmek</li>
+                </ul>
+                
+                <h3>4. Bilgilerin Paylaşımı</h3>
+                <p>Kişisel bilgilerinizi, yasal zorunluluklar dışında üçüncü taraflarla paylaşmayız. Hizmet sağlayıcılarımız, bilgilerinizi yalnızca bizim talimatlarımız doğrultusunda işleyebilir.</p>
+                
+                <h3>5. Veri Güvenliği</h3>
+                <p>Kişisel verilerinizi korumak için uygun teknik ve organizasyonel önlemler alıyoruz. Ancak, internet üzerinden veri iletiminin %100 güvenli olmadığını unutmayın.</p>
+                
+                <h3>6. Çerezler</h3>
+                <p>Web sitemiz, deneyiminizi geliştirmek için çerezleri kullanmaktadır. Tarayıcı ayarlarınızı değiştirerek çerezleri devre dışı bırakabilirsiniz.</p>
+                
+                <h3>7. Haklarınız</h3>
+                <p>Kişisel verilerinize erişme, düzeltme, silme ve işlemeyi kısıtlama hakkına sahipsiniz. Bu haklarınızı kullanmak için bizimle iletişime geçebilirsiniz.</p>
+                
+                <h3>8. Değişiklikler</h3>
+                <p>Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikler web sitemizde yayınlandığında yürürlüğe girer.</p>
+                
+                <h3>9. İletişim</h3>
+                <p>Gizlilik Politikamız hakkında sorularınız varsa, lütfen info@vizionstudio.com adresinden bizimle iletişime geçin.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms and Conditions Modal -->
+    <div id="termsModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-close">
+                <span></span>
+                <span></span>
+            </div>
+            <h2>Kullanım Koşulları</h2>
+            <div class="modal-body">
+                <h3>1. Kabul</h3>
+                <p>Bu web sitesine erişerek veya hizmetlerimizi kullanarak, bu Kullanım Koşullarını kabul etmiş olursunuz. Bu koşulları kabul etmiyorsanız, lütfen sitemizi kullanmayın.</p>
+                
+                <h3>2. Hizmetler</h3>
+                <p>VIZION Studio, video düzenleme, animasyon ve sosyal medya içerik üretimi hizmetleri sunmaktadır. Hizmetlerimizin detayları web sitemizde belirtilmiştir.</p>
+                
+                <h3>3. Fikri Mülkiyet</h3>
+                <p>Web sitemizdeki tüm içerikler, logolar, görseller ve videolar VIZION Studio'nun mülkiyetindedir veya lisanslı olarak kullanılmaktadır. Bu içeriklerin izinsiz kullanımı yasaktır.</p>
+                
+                <h3>4. Kullanıcı Sorumlulukları</h3>
+                <p>Web sitemizi kullanırken:</p>
+                <ul>
+                    <li>Yasalara uygun hareket etmelisiniz</li>
+                    <li>Doğru ve eksiksiz bilgi sağlamalısınız</li>
+                    <li>Web sitemizin güvenliğini tehlikeye atmamalısınız</li>
+                    <li>Diğer kullanıcıların haklarına saygı göstermelisiniz</li>
+                </ul>
+                
+                <h3>5. Sorumluluk Sınırlaması</h3>
+                <p>VIZION Studio, web sitesinin kesintisiz veya hatasız çalışacağını garanti etmez. Sitemizi kullanmanızdan kaynaklanan doğrudan veya dolaylı zararlardan sorumlu değiliz.</p>
+                
+                <h3>6. Üçüncü Taraf Bağlantıları</h3>
+                <p>Web sitemiz, üçüncü taraf web sitelerine bağlantılar içerebilir. Bu sitelerin içeriğinden veya gizlilik uygulamalarından sorumlu değiliz.</p>
+                
+                <h3>7. Değişiklikler</h3>
+                <p>Bu Kullanım Koşullarını herhangi bir zamanda değiştirme hakkını saklı tutarız. Değişiklikler web sitemizde yayınlandığında yürürlüğe girer.</p>
+                
+                <h3>8. Geçerli Hukuk</h3>
+                <p>Bu Kullanım Koşulları Türkiye Cumhuriyeti yasalarına tabidir ve bu yasalara göre yorumlanacaktır.</p>
+                
+                <h3>9. İletişim</h3>
+                <p>Kullanım Koşullarımız hakkında sorularınız varsa, lütfen info@vizionstudio.com adresinden bizimle iletişime geçin.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookies Policy Modal -->
+    <div id="cookiesModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-close">
+                <span></span>
+                <span></span>
+            </div>
+            <h2>Çerez Politikası</h2>
+            <div class="modal-body">
+                <h3>1. Çerezler Nedir?</h3>
+                <p>Çerezler, web sitemizi ziyaret ettiğinizde cihazınıza yerleştirilen küçük metin dosyalarıdır. Bu dosyalar, web sitemizi nasıl kullandığınız hakkında bilgi toplar ve size daha iyi bir deneyim sunmamıza yardımcı olur.</p>
+                
+                <h3>2. Kullandığımız Çerez Türleri</h3>
+                <p>Web sitemizde aşağıdaki çerez türlerini kullanıyoruz:</p>
+                <ul>
+                    <li><strong>Zorunlu Çerezler:</strong> Web sitemizin düzgün çalışması için gereklidir.</li>
+                    <li><strong>Analitik Çerezler:</strong> Ziyaretçilerin web sitemizi nasıl kullandığını anlamamıza yardımcı olur.</li>
+                    <li><strong>İşlevsel Çerezler:</strong> Tercihlerinizi hatırlamamıza ve size özelleştirilmiş bir deneyim sunmamıza olanak tanır.</li>
+                    <li><strong>Hedefleme Çerezleri:</strong> İlgi alanlarınıza göre size özel reklamlar göstermek için kullanılır.</li>
+                </ul>
+                
+                <h3>3. Çerezleri Nasıl Kontrol Edebilirsiniz?</h3>
+                <p>Çoğu web tarayıcısı, çerezleri kabul etmeyi veya reddetmeyi seçmenize olanak tanır. Tarayıcı ayarlarınızı değiştirerek çerezleri devre dışı bırakabilirsiniz. Ancak, çerezleri devre dışı bırakırsanız, web sitemizin bazı özellikleri düzgün çalışmayabilir.</p>
+                
+                <h3>4. Değişiklikler</h3>
+                <p>Bu Çerez Politikasını zaman zaman güncelleyebiliriz. Değişiklikler web sitemizde yayınlandığında yürürlüğe girer.</p>
+                
+                <h3>5. İletişim</h3>
+                <p>Çerez Politikamız hakkında sorularınız varsa, lütfen info@vizionstudio.com adresinden bizimle iletişime geçin.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
